@@ -6,7 +6,7 @@ from discord.ext.commands import Bot
 import keep_alive
 from discord.utils import get
 
-token = os.environ.get('token')
+token = os.environ.get('BOT_TOKEN')
 bot = discord.Client()
 
 @bot.event
